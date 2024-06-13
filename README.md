@@ -86,5 +86,12 @@ scp -r login@jean-zay.idris.fr:chemin/vers/$WORK/runs /chemin/vers/dossier/local
 
 ```
 
+# Inférence - test 
 
+
+```bash
+# Exemple 
+
+yolo segment predict model=/Users/ayoub/Desktop/YOLOV8_2/runs/segment/train3/weights/best.pt source='/Users/ayoub/Desktop/YOLOV8_2/dataset/images/train/intext_10024-21.jpg' 
+```
 
